@@ -15,7 +15,7 @@ def forLoop():
     nums: uint256[5] = [4, 5, 1, 9, 0]
     x: uint256 = MAX_UINT256
     for num in nums:
-        if x < num:
+        if x > num:
             x = num
 
     # continue - skip current iteration
